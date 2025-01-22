@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projec-1</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+        }
+        .a1{
+            height: 100vh;
+            width: 50%;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: greenyellow;
+        }
+        .a2{
+            height: 100vh;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width:50%;
+            justify-content: center;
+        }
+        input{
+            padding: 10px 20px;
+            font-size: 30px;
+        }
+        button{
+            padding: 10px 20px;
+            margin-top: 10px;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <aside class="a1"><input type="text" name="user" id="user">
+        <button type="button" id="btn">Submit</button>
+        </aside>
+        <aside class="a2"></aside>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
